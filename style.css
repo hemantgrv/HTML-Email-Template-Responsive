@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    background-color: #cccccc;
+}
+
+table {
+    border-spacing: 0;
+}
+
+td {
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    background-color: #cccccc;
+    padding-bottom: 60px;
+}
+
+.main {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #4a4a4a;
+}
+
+.main-padding {
+    padding: 14px 0 4px;  /* top / left and right / bottm */
+}
+
+.blue-border {
+    height: 8px;
+    background-color: #289dcf;
+}
+
+.blue-border-small {
+    height: 2px;
+    background-color: #a6d8ee;
+}
+
+/* --------------- Logo and Social Icons --------------- */
+.two-columns {
+    text-align: center;
+    font-size: 0;
+}
+
+.two-columns .columns {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top; /* Align the items at top */
+}
+
+.logo-padding {
+    padding: 0 62px 10px;
+}
+
+.social-icons {
+    padding: 10px 68px;
+}
+
+/* --------------- BANNER IMAGE --------------- */
+.banner-img {
+    max-width: 100%;
+}
+
+/* ---------------TITLE, TEXT & BUTTON --------------- */
+.button {
+    background-color: #289dcf;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.one-columns {
+    padding: 5px 0 50px;
+}
+
+.one-columns .padding {
+    text-align: center;
+    padding: 15px;
+}
+
+.one-columns .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.one-columns .content {
+    font-size: 15px;
+    line-height: 23px;
+    padding: 5px 0 15px;
+}
+
+/* --------------- THREE COLUMN SECTION --------------- */
+.three-columns {
+    text-align: center;
+    font-size: 0;
+    padding: 35px 0 20px;
+}
+
+.three-columns .columns {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.three-columns .padding {
+    padding: 15px;
+}
+
+.three-columns .content {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.secondary-content {
+    padding: 10px;
+}
+
+.three-columns .content .title {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.three-columns a img {
+    max-width: 110px;
+    border-radius: 55px;
+}
+
+/* --------------- TWO COLUMN SECTION --------------- */
+.two-columns.last {
+    padding: 35px 0;
+}
+
+.two-columns .padding {
+    padding: 20px;
+}
+
+.two-columns .content {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.two-columns.last a img {
+    max-width: 260px;
+}
+
+.two-columns.last .title {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* --------------- FOOTER SECTION --------------- */
+.footer {
+    background-color: #565656;
+    color: #ffffff;
+}
+
+.footer .content {
+    text-align: center;
+    padding: 45px 20px;
+}
