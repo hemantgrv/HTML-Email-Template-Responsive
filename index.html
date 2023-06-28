@@ -6,99 +6,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- CSS Stylesheet  -->
+	<link rel="stylesheet" href="style.css">
 	<title>Insight HTML Email Template</title>
-	<style type="text/css">
-		body {
-			margin: 0;
-			background-color: #cccccc;
-		}
-
-		table {
-			border-spacing: 0;
-		}
-
-		td {
-			padding: 0;
-		}
-
-		img {
-			border: 0;
-		}
-
-		.wrapper {
-			width: 100%;
-			table-layout: fixed;
-			background-color: #cccccc;
-			padding-bottom: 60px;
-		}
-
-		.main {
-			background-color: #ffffff;
-			margin: 0 auto;
-			width: 100%;
-			max-width: 600px;
-			border-spacing: 0;
-			font-family: sans-serif;
-			color: #4a4a4a;
-		}
-
-		.two-columns {
-			text-align: center;
-			font-size: 0;
-		}
-
-		.two-columns .columns {
-			width: 100%;
-			max-width: 300px;
-			display: inline-block;
-			vertical-align: top;
-		}
-
-		.button {
-			background-color: #289dcf;
-			color: #ffffff;
-			text-decoration: none;
-			padding: 12px 20px;
-			font-weight: bold;
-			border-radius: 5px;
-		}
-
-		.three-columns {
-			text-align: center;
-			font-size: 0;
-			padding: 35px 0 20px;
-		}
-
-		.three-columns .columns {
-			width: 100%;
-			max-width: 200px;
-			display: inline-block;
-			vertical-align: top;
-		}
-
-		.three-columns .padding {
-			padding: 15px;
-		}
-
-		.three-columns .content {
-			font-size: 15px;
-			line-height: 20px;
-		}
-
-		.two-columns.last {
-			padding: 35px 0;
-		}
-
-		.two-columns .padding {
-			padding: 20px;
-		}
-
-		.two-columns .content {
-			font-size: 15px;
-			line-height: 20px;
-			text-align: left;
-		}
-	</style>
 </head>
 
 <body>
@@ -108,12 +18,12 @@
 		<table class="main" width="100%">
 			<!-- BLUE BORDER -->
 			<tr>
-				<td height="8px" style="background-color: #289dcf;"></td>
+				<td class="blue-border"></td>
 			</tr>
 
 			<!-- LOGO SECTION -->
 			<tr>
-				<td style="padding: 14px 0 4px;">
+				<td class="main-padding">
 					<table width="100%">
 
 						<tr>
@@ -121,8 +31,8 @@
 
 								<table class="columns">
 									<tr>
-										<td style="padding: 0 62px 10px;">
-											<a href="#"><img src="img/insight.png" alt="logo" width="180px"
+										<td class="logo-padding">
+											<a href="#"><img src="img/insight.png" alt="insight-logo" width="180px"
 													title="Logo"></a>
 										</td>
 									</tr>
@@ -130,12 +40,17 @@
 
 								<table class="columns">
 									<tr>
-										<td style="padding: 10px 68px;">
-											<a href="#"><img src="img/circle-facebook.png" alt="" width="32px"></a>
-											<a href="#"><img src="img/circle-twitter.png" alt="" width="32px"></a>
-											<a href="#"><img src="img/circle-youtube.png" alt="" width="32px"></a>
-											<a href="#"><img src="img/circle-linkedin.png" alt="" width="32px"></a>
-											<a href="#"><img src="img/circle-instagram.png" alt="" width="32px"></a>
+										<td class="social-icons">
+											<a href="https://www.facebook.com/" target="_blank"><img src="img/circle-facebook.png" alt="facebook-icon"
+													width="32px"></a>
+											<a href="https://twitter.com/" target="_blank"><img src="img/circle-twitter.png" alt="twitter-icon"
+													width="32px"></a>
+											<a href="https://www.youtube.com/" target="_blank"><img src="img/circle-youtube.png" alt="youtube-icon"
+													width="32px"></a>
+											<a href="https://www.linkedin.com/" target="_blank"><img src="img/circle-linkedin.png" alt="linkedin-icon"
+													width="32px"></a>
+											<a href="https://www.instagram.com/" target="_blank"><img src="img/circle-instagram.png" alt="instagram-icon"
+													width="32px"></a>
 										</td>
 									</tr>
 								</table>
@@ -150,20 +65,19 @@
 			<!-- BANNER IMAGE -->
 			<tr>
 				<td>
-					<a href="#"><img src="img/banner.jpg" alt="" width="600px" style="max-width: 100%;"></a>
+					<a href="#"><img src="img/banner.jpg" alt="" width="600px" class="banner-img"></a>
 				</td>
 			</tr>
 
 			<!-- TITLE, TEXT & BUTTON -->
 			<tr>
-				<td style="padding: 5px 0 50px;">
+				<td class="one-columns">
 					<table width="100%">
 						<tr>
-							<td style="text-align: center; padding: 15px;">
-								<p style="font-size: 20px; font-weight: bold;">HTML Email Template <strong
-										style="color: #289dcf;">Course</strong></p>
+							<td class="padding">
+								<p class="title">HTML Email Template <strong style="color: #289dcf;">Course</strong></p>
 
-								<p style="font-size: 15px; line-height: 23px; padding: 5px 0 15px;">Responsive HTML
+								<p class="content">Responsive HTML
 									Email Templates that you can build around. Responsive HTML Email Templates that you
 									can build around. Responsive HTML Email Templates that you can build around.
 									Responsive HTML Email Templates that you can build around.</p>
@@ -177,7 +91,7 @@
 
 			<!-- BLUE BORDER -->
 			<tr>
-				<td height="2px" style="background-color: #a6d8ee;"></td>
+				<td class="blue-border-small"></td>
 			</tr>
 
 			<!-- THREE COLUMN SECTION -->
@@ -194,19 +108,19 @@
 											<table class="content">
 												<tr>
 													<td>
-														<a href="#"><img src="img/ecommerce.jpg" alt="" width="100px"
-																style="max-width: 110px; border-radius: 55px;"></a>
+														<a href="#"><img src="img/ecommerce.jpg" alt="ecommerce-logo"
+																width="100px"></a>
 													</td>
 												</tr>
 												<tr>
-													<td style="padding: 10px;">
-														<p style="font-weight: bold; font-size: 17px; ">Ecommerce</p>
+													<td class="secondary-content">
+														<p class="title">Ecommerce</p>
 														<p>Responsive HTML Email Templates that you can build around.
 														</p>
-
 													</td>
 												</tr>
 											</table>
+
 										</td>
 									</tr>
 								</table>
@@ -218,19 +132,19 @@
 											<table class="content">
 												<tr>
 													<td>
-														<a href="#"><img src="img/web-design.jpg" alt="" width="100px"
-																style="max-width: 110px; border-radius: 55px;"></a>
+														<a href="#"><img src="img/web-design.jpg" alt="web-design-logo"
+																width="100px"></a>
 													</td>
 												</tr>
 												<tr>
-													<td style="padding: 10px;">
-														<p style="font-weight: bold; font-size: 17px; ">Web Design</p>
+													<td class="secondary-content">
+														<p class="title">Web Design</p>
 														<p>Responsive HTML Email Templates that you can build around.
 														</p>
-
 													</td>
 												</tr>
 											</table>
+
 										</td>
 									</tr>
 								</table>
@@ -242,16 +156,15 @@
 											<table class="content">
 												<tr>
 													<td>
-														<a href="#"><img src="img/email-design.jpg" alt="" width="100px"
-																style="max-width: 110px; border-radius: 55px;"></a>
+														<a href="#"><img src="img/email-design.jpg"
+																alt="email-design-logo" width="100px"></a>
 													</td>
 												</tr>
 												<tr>
-													<td style="padding: 10px;">
-														<p style="font-weight: bold; font-size: 17px; ">Email Design</p>
+													<td class="secondary-content">
+														<p class="title">Email Design</p>
 														<p>Responsive HTML Email Templates that you can build around.
 														</p>
-
 													</td>
 												</tr>
 											</table>
@@ -265,9 +178,10 @@
 				</td>
 			</tr>
 
+
 			<!-- BLUE BORDER -->
 			<tr>
-				<td height="2px" style="background-color: #a6d8ee;"></td>
+				<td class="blue-border-small"></td>
 			</tr>
 
 
@@ -285,8 +199,7 @@
 											<table class="content">
 												<tr>
 													<td>
-														<a href="#"><img src="img/palette.jpg" alt="" width="260"
-																style="max-width: 260px;"></a>
+														<a href="#"><img src="img/palette.jpg" alt="palette-img" width="260"></a>
 													</td>
 												</tr>
 											</table>
@@ -302,7 +215,7 @@
 											<table class="content">
 												<tr>
 													<td>
-														<p style="font-size: 17px; font-weight: bold;">Create Custom
+														<p class="title">Create Custom
 															Designs</p>
 														<p>Over the year we have built up a massive portfolio our client
 															website and email designs.</p>
@@ -325,27 +238,27 @@
 
 			<!-- FOOTER SECTION -->
 			<tr>
-				<td style="background-color: #565656; color: #ffffff;">
+				<td class="footer">
 					<table width="100%">
 						<tr>
-							<td style="text-align: center; padding: 45px 20px ;">
+							<td class="content">
 
-								<a href="#"><img src="img/insight-white.png" alt="" width="160px"></a>
-								<p style="padding: 10px;">Insight HTML Emial</p>
-								<p style="padding: 10px;">123 Street Road, City, State 55555</p>
+								<a href="#"><img src="img/insight-white.png" alt="insight-logo" width="160px"></a>
+								<p class="secondary-content">Insight HTML Emial</p>
+								<p class="secondary-content">123 Street Road, City, State 55555</p>
 
-								<a href="#"><img src="img/white-facebook.png" alt="" width="30px"></a>
-								<a href="#"><img src="img/white-twitter.png" alt="" width="30px"></a>
-								<a href="#"><img src="img/white-youtube.png" alt="" width="30px"></a>
-								<a href="#"><img src="img/white-linkedin.png" alt="" width="30px"></a>
-								<a href="#"><img src="img/white-instagram.png" alt="" width="30px"></a>
+								<a href="https://www.facebook.com/" target="_blank"><img src="img/white-facebook.png" alt="facebook-icon" width="30px"></a>
+								<a href="https://twitter.com/" target="_blank"><img src="img/white-twitter.png" alt="twitter-icon" width="30px"></a>
+								<a href="https://www.youtube.com/" target="_blank"><img src="img/white-youtube.png" alt="youtube-icon" width="30px"></a>
+								<a href="https://www.linkedin.com/" target="_blank"><img src="img/white-linkedin.png" alt="linkedin-icon" width="30px"></a>
+								<a href="https://www.instagram.com/" target="_blank"><img src="img/white-instagram.png" alt="instagram-icon" width="30px"></a>
 
-								<p style="padding: 10px;">SUBSCRIBE</p>
+								<p class="secondary-content">SUBSCRIBE</p>
 							</td>
 						</tr>
 
 						<tr>
-							<td style="height: 10px; background-color: #289dcf;"></td>
+							<td class="blue-border"></td>
 						</tr>
 					</table>
 				</td>
@@ -355,4 +268,5 @@
 
 	</center>
 </body>
+
 </html>
